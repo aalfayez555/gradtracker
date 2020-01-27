@@ -7,7 +7,7 @@ const MongoClient = require('mongodb').MongoClient;
 const bodyParser = require('body-parser');
 const url = "mongodb://127.0.0.1/gradtracker";
 
-app.listen(8080, () => console.log('Server Ready'));
+app.listen(3000, () => console.log('Server Ready'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
