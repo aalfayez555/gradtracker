@@ -1,8 +1,11 @@
 GradTracker Documentation
 
 Startup
+
+Nodejs, Express, Mongo must be installed
+
 --------------------------------------------------------------------------------
-    To start the server and begin displaying data, run the bootstrapgetdata.js
+    To start the server and begin displaying data, run the app.js
 file. The project is contained within one webpage, so there is no need to
 navigate away from the index URL.
 
